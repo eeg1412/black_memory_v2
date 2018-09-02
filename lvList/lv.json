@@ -1,0 +1,62 @@
+{
+	"lv_exp": [{
+			"name": "Lv.萌新",
+			"exp": 3,
+			"color": "Magenta"
+		},
+		{
+			"name": "Lv.初学者",
+			"exp": 10,
+			"color": "BlueViolet"
+		},
+		{
+			"name": "Lv.进阶者",
+			"exp": 26,
+			"color": "Blue"
+		},
+		{
+			"name": "Lv.高阶者",
+			"exp": 40,
+			"color": "LightSeaGreen"
+		},
+		{
+			"name": "Lv.青铜大佬",
+			"exp": 70,
+			"color": "Peru"
+		},
+		{
+			"name": "Lv.白银大佬",
+			"exp": 110,
+			"color": "LightSteelBlue"
+		},
+		{
+			"name": "Lv.黄金大佬",
+			"exp": 160,
+			"color": "GoldenRod"
+		},
+		{
+			"name": "Lv.白金大佬",
+			"exp": 220,
+			"color": "Crimson"
+		},
+		{
+			"name": "Lv.传说",
+			"exp": 380,
+			"color": "Red"
+		},
+		{
+			"name": "Lv.永恒传说",
+			"exp": 666,
+			"color": "Tomato"
+		},
+		{
+			"name": "Lv.回归萌新",
+			"exp": 9999,
+			"color": "Magenta"
+		}
+	],
+	"lv_null": [{
+		"name": "Lv.神秘人",
+		"color": "DarkGray"
+	}]
+}

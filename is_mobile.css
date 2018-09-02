@@ -1,0 +1,179 @@
+@charset "utf-8";
+/* CSS Document */
+
+.is_mobile .nav, .is_mobile .login-area, .is_mobile .search-area, .is_mobile .itemarticle-img, .is_mobile #sidebar {
+	display: none;
+}
+html.is_mobile, body.is_mobile {
+	min-width: inherit;
+}
+.is_mobile #header {
+	min-width: inherit;
+}
+.is_mobile #content {
+	width: auto;
+}
+.is_mobile #contentleft {
+	width: 100%;
+}
+.is_mobile .itemarticle-content {
+	float: none;
+	margin: 20px auto;
+	height: auto;
+	width: 90%;
+}
+.is_mobile .itemarticle-tips {
+	margin: inherit;
+	padding: 17px;
+}
+.is_mobile .itemarticle-tips h5 {
+	margin-top: 0px;
+}
+.is_mobile #footerbar {
+	min-width: inherit;
+}
+.is_mobile #footerbar p {
+	padding: 0 20px;
+}
+.is_mobile .prettyprint, pre.prettyprint {
+	overflow: auto;
+}
+.is_mobile .nextlog a {
+	box-sizing: border-box;
+}
+.is_mobile .post .comment .comment-info {
+	padding: 10px 0;
+}
+.is_mobile .itemarticle-extra {
+	min-height: 16px;
+}
+.is_mobile #smchuncai {
+	display: none;
+}
+.is_mobile .post-content img {
+	height: auto;
+}
+.is_mobile #wrap {
+	padding-top: 60px;
+}
+.is_mobile .footerbar-waper {
+	padding-left: 10px;
+}
+/*幻灯片*/
+.is_mobile .yx-rotation-t {
+	right: 10px;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	font-size: 12px;
+	line-height: 22px;
+}
+.is_mobile .right_btn, .is_mobile .left_btn, .is_mobile .yx-rotation-focus {
+	display: none;
+}
+.is_mobile .yx-rotation-title {
+	height: 22px;
+	line-height: 22px;
+}
+/*手机导航*/
+
+.mobile_nav_body {
+	display: none;
+	position: fixed;
+	z-index: 1101;
+	bottom: 0;
+	top: 0;
+	left: 20%;
+	right: 0;
+	overflow: hidden;
+	background: #000;
+	padding: 50px 0px 20px 0px;
+}
+.mobile_nav_close {
+	position: fixed;
+	z-index: 1102;
+	right: 20px;
+	top: 15px;
+	width: 25px;
+	height: 25px;
+	background-image: url(images/wikimoe_close.png);
+	background-size: cover;
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+.wikimoe_overlay_black {
+	display: none;
+	width: 100%;
+	height: 100%;
+	background: url(images/wikimoe_index_black_bg.png);
+	position: fixed;
+	z-index: 1100;
+	bottom: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	-webkit-transition: 0.5s;
+	-o-transition: 0.5s;
+	transition: 0.5s;
+}
+.wikimoe_mobile_nav_open {
+	background-image: url(images/wikimoe_cd_black.png);
+	background-size: contain;
+	background-position: center center;
+	background-repeat: no-repeat;
+	height: 35px;
+	width: 25px;
+	margin-right: 22px;
+	margin-top: 12px;
+	display: none;
+	float: right;
+}
+.is_mobile .wikimoe_mobile_nav_open {
+	display: block;
+}
+.mobile_nav_body .bar {
+	overflow: auto;
+	width: 100%;
+	height: 100%;
+}
+.mobile_nav_body .bar .item {
+	height: 50px;
+}
+.mobile_nav_body .bar .item.current a {
+	background: #363c41;
+}
+.mobile_nav_body .bar .item a {
+	font-size: 20px;
+	padding: 0 25px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+	height: 50px;
+	line-height: 50px;
+	display: block;
+	color: #fff;
+}
+.bpJsdoit {
+	width: 100%!important;
+	overflow-x: auto;
+}
+/*微语*/
+
+.is_mobile #contentleft #tw .post1 {
+	padding: 5px 10px 0 0;
+	margin-left: 85px;
+}
+.is_mobile .post iframe {
+	max-width: 100%;
+	height: auto;
+	max-height: 600px;
+	overflow: auto;
+}
+/*回到顶部*/
+.is_mobile .backtop{
+	width:40px;
+	height:40px;
+}
+/* 微语头像 */
+.is_mobile #contentleft #tw .main_img{
+	text-align: left;
+}
