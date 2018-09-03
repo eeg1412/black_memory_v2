@@ -24,7 +24,7 @@ require_once View::getView('module');
 <link rel="EditURI" type="application/rsd+xml" title="RSD" href="<?php echo BLOG_URL; ?>xmlrpc.php?rsd" />
 <link rel="wlwmanifest" type="application/wlwmanifest+xml" href="<?php echo BLOG_URL; ?>wlwmanifest.xml" />
 <link rel="alternate" type="application/rss+xml" title="RSS"  href="<?php echo BLOG_URL; ?>rss.php" />
-<link href="<?php echo TEMPLATE_URL; ?>main.css?ver0.10" rel="stylesheet" type="text/css" />
+<link href="<?php echo TEMPLATE_URL; ?>main.css?ver0.11" rel="stylesheet" type="text/css" />
 <link href="<?php echo TEMPLATE_URL; ?>is_mobile.css?ver0.3" rel="stylesheet" type="text/css" />
 <link href="<?php echo TEMPLATE_URL; ?>js/code/prettify.css" rel="stylesheet" type="text/css" />
 <link href="<?php echo TEMPLATE_URL; ?>OwO/OwO.min.css" rel="stylesheet" type="text/css" />
@@ -38,13 +38,8 @@ require_once View::getView('module');
 <!--[if IE 6]>
 <script src="<?php echo TEMPLATE_URL; ?>iefix.js" type="text/javascript"></script>
 <![endif]-->
-<script async src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
-<script>
-  (adsbygoogle = window.adsbygoogle || []).push({
-    google_ad_client: "ca-pub-2419422873915278",
-    enable_page_level_ads: true
-  });
-</script>
+
+<!--git版本删除谷歌广告-->
 </head>
 <body>
 <div id="wrap">

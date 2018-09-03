@@ -752,8 +752,9 @@ a:active {
 #sidebar{
   position: relative;
   background: #fff;
-  width: 23%;
+  width: 24.5%;
   float: right;
+  padding-top: 10px;
 }
 #sidebar>li{
   padding: 0 20px 20px 20px;
