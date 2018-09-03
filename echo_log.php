@@ -36,8 +36,6 @@ if(!defined('EMLOG_ROOT')) {exit('error!');}
 			<?php neighbor_log($neighborLog); ?>
 		</div>
 		<div style="clear:both;"></div>
-        <?php doAction('qingzz_zan_plugin',$logid); ?>
-        <div class="donatebox"><img src="<?php echo TEMPLATE_URL; ?>images/donate.png" alt="捐赠"></div>
 		<div><?php blog_comments($comments); ?></div>
 		<?php blog_comments_post($logid,$ckname,$ckmail,$ckurl,$verifyCode,$allow_remark); ?>
 	</div>

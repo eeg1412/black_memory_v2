@@ -4,7 +4,7 @@
  */
 if(!defined('EMLOG_ROOT')) {exit('error!');} 
 ?>
-<div id="content">
+<div id="content" class="clearfix">
 <div id="contentleft">
 <?php if(_g('slides') == yes): ?>
   <!--轮播图片-->
