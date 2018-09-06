@@ -458,7 +458,7 @@ function blog_comments($comments){
   $cardLinkAddr = _g('cardLink');
 	foreach($commentStacks as $cid):
     $comment = $comments[$cid];
-	  $comment['cardInfo'] = $comment['mail'] && !empty($cardLinkAddr)? '<a class="commentCardInfo" target="_blank" href="'.BLOG_URL.$cardLinkAddr.'&useraddr='.md5($comment['mail']).'&usernick='.urlencode($comment['poster']).'">TA的卡牌</a>':'';
+	  $comment['cardInfo'] = $comment['mail'] && !empty($cardLinkAddr)? '<a class="commentCardInfo" target="_blank" href="'.BLOG_URL.$cardLinkAddr.'useraddr='.md5($comment['mail']).'&usernick='.urlencode($comment['poster']).'">TA的卡牌</a>':'';
 	  $comment['poster'] = $comment['url'] ? '<a href="'.$comment['url'].'" target="_blank">'.$comment['poster'].'</a>' : $comment['poster'];
 	?>
 <div class="comment" id="comment-<?php echo $comment['cid']; ?>"> <a name="<?php echo $comment['cid']; ?>"></a>
@@ -484,7 +484,7 @@ function blog_comments_children($comments, $children){
   $cardLinkAddr = _g('cardLink');
 	foreach($children as $child):
 	$comment = $comments[$child];
-	$comment['cardInfo'] = $comment['mail'] && !empty($cardLinkAddr) ? '<a class="commentCardInfo" target="_blank" href="'.BLOG_URL.$cardLinkAddr.'?post=130&useraddr='.md5($comment['mail']).'&usernick='.urlencode($comment['poster']).'">TA的卡牌</a>':'';
+	$comment['cardInfo'] = $comment['mail'] && !empty($cardLinkAddr) ? '<a class="commentCardInfo" target="_blank" href="'.BLOG_URL.$cardLinkAddr.'useraddr='.md5($comment['mail']).'&usernick='.urlencode($comment['poster']).'">TA的卡牌</a>':'';
 	$comment['poster'] = $comment['url'] ? '<a href="'.$comment['url'].'" target="_blank">'.$comment['poster'].'</a>' : $comment['poster'];
 	?>
 <div class="comment comment-children" id="comment-<?php echo $comment['cid']; ?>"> <a name="<?php echo $comment['cid']; ?>"></a>
