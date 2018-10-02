@@ -635,7 +635,7 @@ function echo_levels($comment_author_email){
 	echo 'null';
   }else{
 	  $DB = MySql::getInstance();
-	  $sql = "SELECT cid as author_count FROM wikimoeindex_comment WHERE mail = ".$comment_author_email."and hide ='n'";
+	  $sql = "SELECT cid as author_count FROM ".DB_PREFIX."comment WHERE mail = ".$comment_author_email."and hide ='n'";
 	  $res = $DB->query($sql);
 	  $author_count = mysql_num_rows($res);
 	  if($author_count>9999){
